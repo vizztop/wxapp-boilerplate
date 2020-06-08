@@ -1,0 +1,27 @@
+{
+  "name": "wxapp-boilerplate",
+  "version": "1.0.0",
+  "author": "Li Yujie <liyujie@vizz.top>",
+  "description": "小程序初始化模板",
+  "keywords": [
+    "小程序",
+    "模板"
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vizztop/wxapp-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vizztop/wxapp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vizztop/wxapp-boilerplate#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.3.2",
+    "async-validator": "^3.3.0"
+  }
+}

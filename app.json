@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/tabBar/home/home",
+        "pages/tabBar/userCenter/userCenter"
+    ],
+    "window": {
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F9F9F9"
+    },
+    "tabBar": {
+        "color": "#666666",
+        "selectedColor": "#00A1D6",
+        "borderStyle": "black",
+        "backgroundColor": "#FFFFFF",
+        "list": [
+            {
+                "pagePath": "pages/tabBar/home/home",
+                "iconPath": "assets/tabBar/home.png",
+                "selectedIconPath": "assets/tabBar/home-select.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/tabBar/userCenter/userCenter",
+                "iconPath": "assets/tabBar/my.png",
+                "selectedIconPath": "assets/tabBar/my-select.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "subPackages": [
+        {
+            "root": "pages/packageA/",
+            "pages": [
+                "pages/test/test"
+            ]
+        }
+    ],
+    "usingComponents": {
+        "van-toast": "@vant/weapp/toast/index"
+    },
+    "networkTimeout": {
+        "request": 60000,
+        "connectSocket": 60000,
+        "uploadFile": 60000,
+        "downloadFile": 60000
+    },
+    "sitemapLocation": "sitemap.json"
+}

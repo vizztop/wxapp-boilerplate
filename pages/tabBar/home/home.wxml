@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    vant组件测试
+    <van-button type="primary" bindtap="handleClick">表单校验</van-button>
+</view>
+
+<!-- vant toast容器 -->
+<van-toast id="van-toast" />

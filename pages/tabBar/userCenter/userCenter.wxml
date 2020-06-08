@@ -1,0 +1,4 @@
+<!--pages/tabBar/userCenter/userCenter.wxml-->
+<text>我的</text>
+
+<van-toast id="van-toast" />
